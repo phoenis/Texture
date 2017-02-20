@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(600,600);
+  createCanvas(800,600);
   frameRate(1);
   colorMode(HSB,255);
   angleMode(DEGREES);
@@ -8,7 +8,7 @@ function setup() {
 function draw() {
 	rotate(-30);
 	
-	for(var x=0; x<height+300; x += 30) {
+	for(var x=0; x<height+330; x += 30) {
 	  for(var y=-300; y<width+100; y += 50) {
 		  var b = y+50;
 		  var c = b-20;
